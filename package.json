@@ -30,5 +30,22 @@
     "passport": "^0.4.0",
     "passport-strategy": "^1.0.0",
     "request": "^2.81.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "mongo": true,
+      "node": true
+    },
+    "extends": "airbnb",
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module"
+    },
+    "rules": {}
   }
 }
